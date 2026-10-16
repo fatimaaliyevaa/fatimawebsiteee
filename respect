@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pirates of the Caribbean</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background: #0d1b2a;
+        color: white;
+    }
+
+    header{
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 4rem;
+        color: gold;
+    }
+
+    header p{
+        font-size: 1.4rem;
+        margin: 20px;
+    }
+
+    .btn{
+        padding: 12px 25px;
+        background: gold;
+        color: black;
+        text-
